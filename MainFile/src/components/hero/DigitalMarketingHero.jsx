@@ -82,9 +82,10 @@ const DigitalMarketingHero = () => {
                   <h3 className="sec-title title-left" ref={titleLeft} style={
                       {
                         fontFamily: "League Spartan", 
-                        letterSpacing: "-0.10em",
-                        fontWeight: "bold",
-                        paddingTop: "0.2em"
+                        letterSpacing: "-0.12em",
+                        fontWeight: 900,
+                        paddingTop: "0.2em",
+                      textShadow: "1px 1px 0px black, -1px -1px 0px black"
                       }
                     }>
                     CAPTV8
@@ -92,9 +93,11 @@ const DigitalMarketingHero = () => {
                   <h3 className="sec-title title-right" ref={titleRight}  
                     style={{
                       fontFamily: "League Spartan",
-                      letterSpacing: "-0.11em",
-                      fontWeight: "bold",
-                      paddingTop: "0.2em"
+                      letterSpacing: "-0.2em",
+                      fontWeight: 900,
+                      paddingTop: "0.2em",
+                      textShadow: "1px 1px 1px , 1px 1px 1px "
+
                     }}>
                     
                   </h3>
