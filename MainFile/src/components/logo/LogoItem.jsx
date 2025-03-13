@@ -14,8 +14,8 @@ export default function LogoItem() {
         <Link href={"/digital-marketing"} className="logo-dark">
           <Image
             priority
-            width={90}
-            height={45}
+            width={80}
+            height={48}
             src={captv8_transparent_alt_dark}
             alt="Site Logo"
           />
@@ -23,8 +23,8 @@ export default function LogoItem() {
         <Link href={"/digital-marketing"} className="logo-light">
           <Image
             priority
-            width={90}
-            height={45}
+            width={80}
+            height={48}
             src={captv8_transparent_alt_light}
             alt="Site Logo"
           />

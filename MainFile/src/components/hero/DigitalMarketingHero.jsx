@@ -82,10 +82,9 @@ const DigitalMarketingHero = () => {
                   <h3 className="sec-title title-left" ref={titleLeft} style={
                       {
                         fontFamily: "League Spartan", 
-                        letterSpacing: "-0.12em",
+                        letterSpacing: "-0.10em",
                         fontWeight: 900,
                         paddingTop: "0.2em",
-                      textShadow: "1px 1px 0px black, -1px -1px 0px black"
                       }
                     }>
                     CAPTV8
