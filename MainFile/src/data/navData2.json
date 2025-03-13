@@ -1,0 +1,20 @@
+{
+  "nav": [
+    {
+      "nav_name": "Menu Item",
+      "link": "/path",
+      "type": "megamenu|dropdown|''",
+      "sub_nav": [
+        {
+          "title": "Section Title",
+          "data": [
+            {
+              "name": "Sub Item",
+              "link": "/sub-path"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

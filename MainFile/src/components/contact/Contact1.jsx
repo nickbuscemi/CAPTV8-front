@@ -35,24 +35,24 @@ const Contact1 = () => {
           <div className="row contact__btm">
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="contact__info">
-                <h3
+                {/*<h3
                   className="sub-title-anim-top animation__word_come"
                   ref={wordAnim}
                 >
                   {"Don't be afraid man ! "}
                   <br />
                   say hello
-                </h3>
+                </h3>*/}
                 <ul>
                   <li>
-                    <a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a>
+                    <a href="tel:+(1)6313165618">(631) 316-5618</a>
                   </li>
                   <li>
-                    <a href="mailto:hello@example.com">hello@example.com</a>
+                    <a href="mailto:hello@captv8marketing.com">info@captv8marketing.com</a>
                   </li>
                   <li>
                     <span>
-                      230 Norman Street New York, <br /> QC (USA) H8R 1A1
+                      253 North Syracuse Ave, Massapequa, <br /> NY 11758
                     </span>
                   </li>
                 </ul>

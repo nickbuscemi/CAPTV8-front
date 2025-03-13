@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Canvas from "../canvas/Canvas";
 import MenuBlack from "../../../public/assets/imgs/icon/menu-black.png";
-import captv8_transparent_dark from "../../../public/assets/logos/captv8_transparent_dark.png";
 import Image from "next/image";
 import SearchData from "../../data/searchData.json";
 import { useRouter } from "next/router";

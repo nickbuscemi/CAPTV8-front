@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import Canvas from "../canvas/Canvas";
 import Link from "next/link";
-import LogoWhite from "../../../public/assets/imgs/logo/site-logo-white.png";
-import LogoWhite2 from "../../../public/assets/imgs/logo/site-logo-white-2.png";
+import captv8_transparent_light from "../../../public/assets/logos/captv8_transparent_light.png";
+import captv8_transparent_light_rotate from "../../../public/assets/logos/captv8_transparent_light_rotate.png";
 import MenuWhite from "../../../public/assets/imgs/icon/menu-white.png";
 import Image from "next/image";
 
@@ -52,9 +52,9 @@ export default function Header3() {
               <Image
                 priority
                 width={33}
-                height={100}
+                height={120}
                 className="logo-primary"
-                src={LogoWhite}
+                src={captv8_transparent_light_rotate}
                 alt="Site Logo"
               />
               <Image
@@ -62,7 +62,7 @@ export default function Header3() {
                 width={100}
                 height={33}
                 className="logo-secondary"
-                src={LogoWhite2}
+                src={captv8_transparent_light}
                 alt="Moibile Logo"
               />
             </Link>
