@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "@fontsource/league-spartan";
 import "../../public/assets/scss/master.scss"
 import "@/styles/extra.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";

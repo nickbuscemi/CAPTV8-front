@@ -3,6 +3,8 @@ import Link from "next/link";
 //import LogoBlack from "../../../public/assets/imgs/logo/logo-black.png";
 import captv8_transparent_light from "../../../public/assets/logos/captv8_transparent_light.png";
 import captv8_transparent_dark from "../../../public/assets/logos/captv8_transparent_dark.png";
+import captv8_transparent_alt_light from "../../../public/assets/logos/captv8_transparent_alt_light.png";
+import captv8_transparent_alt_dark from "../../../public/assets/logos/captv8_transparent_alt_dark.png";
 import Image from "next/image";
 
 export default function LogoItem() {
@@ -12,18 +14,18 @@ export default function LogoItem() {
         <Link href={"/digital-marketing"} className="logo-dark">
           <Image
             priority
-            width={150}
+            width={90}
             height={45}
-            src={captv8_transparent_dark}
+            src={captv8_transparent_alt_dark}
             alt="Site Logo"
           />
         </Link>
         <Link href={"/digital-marketing"} className="logo-light">
           <Image
             priority
-            width={150}
+            width={90}
             height={45}
-            src={captv8_transparent_light}
+            src={captv8_transparent_alt_light}
             alt="Site Logo"
           />
         </Link>

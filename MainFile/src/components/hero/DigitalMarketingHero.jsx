@@ -5,6 +5,8 @@ import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
 import Hero31 from "../../../public/assets/imgs/hero/3/1.jpg";
 import Image from "next/image.js";
 import captv8_transparent_light from "../../../public/assets/logos/captv8_transparent_light.png";
+import "@fontsource/league-spartan";
+
 
 const DigitalMarketingHero = () => {
   const titleLeft = useRef();
@@ -77,10 +79,23 @@ const DigitalMarketingHero = () => {
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
                   <h2 className="sec-sub-title">Digital Marketing Agency</h2>
-                  <h3 className="sec-title title-left" ref={titleLeft}>
+                  <h3 className="sec-title title-left" ref={titleLeft} style={
+                      {
+                        fontFamily: "League Spartan", 
+                        letterSpacing: "-0.10em",
+                        fontWeight: "bold",
+                        paddingTop: "0.2em"
+                      }
+                    }>
                     CAPTV8
                   </h3>
-                  <h3 className="sec-title title-right" ref={titleRight}>
+                  <h3 className="sec-title title-right" ref={titleRight}  
+                    style={{
+                      fontFamily: "League Spartan",
+                      letterSpacing: "-0.11em",
+                      fontWeight: "bold",
+                      paddingTop: "0.2em"
+                    }}>
                     
                   </h3>
                 </div>
